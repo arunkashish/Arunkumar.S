@@ -1,0 +1,25 @@
+Pyspark-Bike_Sharing_Demand_Prediction_ML-Model
+
+I developed a real-time Spark job designed to process and manipulate vast amounts of streaming data. This pipeline was engineered to efficiently handle the complexities of live data ingestion, transformation, and aggregation. Leveraging machine learning models within Spark
+
+Goal: Predict bike-sharing demand in real-time using historical usage patterns and weather data.
+
+Technologies: PySpark for data processing and machine learning, Kafka for real-time data streaming, and possibly Apache Flume for data ingestion.
+
+Steps:
+
+Data Collection: Gather historical bike-sharing data and weather data.
+
+Data Cleaning: Handle missing values, outliers, and normalize data.
+
+Exploratory Data Analysis (EDA): Analyze data to understand patterns and relationships.
+
+Feature Engineering: Create new features that could impact bike-sharing demand.
+
+Model Training: Use machine learning algorithms (e.g., linear regression, random forest) to train models on historical data.
+
+Real-Time Data Streaming: Set up Kafka to stream live data into the system.
+
+Model Deployment: Use PySpark to process streaming data, apply the trained model, and make real-time predictions.
+
+Evaluation: Continuously evaluate the model's performance and update it with new data.
